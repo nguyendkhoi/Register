@@ -1,0 +1,106 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+.background {
+  width: 40vw;
+  height: 100vh;
+  background-image: url(./Son\ Doong\ Cave.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#odin-logo {
+  width: 150px;
+  height: 200px;
+}
+
+#odin-text {
+  color: white;
+  font-size: 50px;
+  font-family: "Skranji", serif;
+  font-weight: 400;
+}
+
+.main {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5vw;
+  font-family: "Funnel Display", "Arial Narrow", Arial, sans-serif;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3vw;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input {
+  width: 80%;
+  height: 25px;
+  font-size: 1.05rem;
+  border: 1px solid rgb(155, 155, 155, 0.5);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: grey;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input:valid {
+  border-color: green;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: #18cb66;
+  border: none;
+  font-size: 1.1rem;
+  height: 32px;
+  width: 180px;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #18cb66;
+}
+
+.error-border {
+  border-color: red;
+}
+.success-border {
+  border-color: green;
+}
